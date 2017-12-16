@@ -33,7 +33,7 @@ function makeGrid() {
 
     // Sets the background color of the cell to the selected color
     $('td').click(function() {
-      $(this).css('background', inputColor.val());
+        $(this).css('background', inputColor.val());
     });
 
 }
